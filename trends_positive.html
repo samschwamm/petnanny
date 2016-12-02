@@ -9,17 +9,26 @@
 
 <body>
 
-<h1 class="title is-1 main-title">Pet Nanny</h1>
-<div class="tabs is-centered is-medium">
-  <ul>
-    <li><a href="index.html">Overview</a></li>
-    <li class="is-active"><a href="trends.html">Trends</a></li>
-    <li><a>Settings</a></li>
-  </ul>
+<div class="header">
+
+<nav class="nav has-shadow"> 
+	<div class="nav-left">
+		<a class="nav-item">
+			<img src="petnanny_logo.png">  
+	</div>
+	<div class="nav-right">
+		<a class="nav-item" href="index.html">Overview</a>
+		<a class="nav-item is-active" href="trends.html">Trends</a>
+	</div>
+</nav>
+
 </div>
 
+<section class="section">
+<div class="container">
+
 <div class="columns">
-  <div class="column is-one-quarter is-offset-1">
+  <div class="column is-one-quarter">
     <img src='dogpic.jpg'/>
     <p class="title main-title">Buddy</p>
     <p class="subtitle main-title">Training Level: "Puppy"</p>
@@ -27,35 +36,25 @@
   
   <div class="column">
 	<h1 class="title main-title">Trends</h1>
-
-  	<nav class="level">
-  		<div class="level-item has-text-centered">
-			<p class="control">
-				<a href="trends.html" class="button is-medium">
-				Bad Behavior
-				</a>
-			</p>
-		</div>
-		<div class="level-item has-text-centered">
-			<p class="control">
-				<a href="trends_positive.html" class="button is-active is-medium">
-				Good Behavior
-				</a>
-			</p>
-		</div>
-		<div class="level-item-has-text-centered">
-			<p class="control">
-				<a href="trends_all.html" class="button is-medium">
-				All Behavior
-				</a>
-			</p>
-		</div>
-	</nav>
-  	
-  <div>
-    <a href="https://plot.ly/~dpascucci/23/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~dpascucci/23.png" alt="" style="max-width: 100%;width: 978px;"  width="978" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+  
+  	<div class="tabs is-centered">
+  		<ul>
+  			<li><a href="trends.html">Bad Behavior</a></li>
+  			<li class="is-active"><a href="trends_positive.html">Good Behavior</a></li>
+			<li><a href="trends_all.html">All Behavior</a></li>
+		</ul>	
+	</div>
+	
+	<div>
+    <a href="https://plot.ly/~dpascucci/23/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~dpascucci/23.png" alt="" style="max-width: 100%;width: 417px;"  width="417" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="dpascucci:23"  src="https://plot.ly/embed.js" async></script>
 	</div>
+
+
+</div>
+
+</div>
+</section>
 
 
 </div>
